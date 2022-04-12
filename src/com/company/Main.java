@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static JsonID JsonIO;
-    private static final List<Movies> movies = JsonIO.getMovies();
+
+    private static final List<Movies> movies = JsonID.getMovies();
     private static final SortAble SORT_ABLE =  new MovieStore();
     private static final Methods FIND_ABLE =  new SearchMap();
     private static final Scanner SCANNER = new Scanner(System.in);
